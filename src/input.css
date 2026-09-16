@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --spacing-10: 10px;
+  --spacing-28: 28px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-24: 24px;
+  --radius-56: 56px;
+  --color-pink: rgba(255, 235, 235, 1);
+  --color-border-gray: rgba(0, 0, 0, 0.15);
+  --color-border: rgba(20, 20, 20, 0.15);
+  --color-gray: rgba(129, 132, 138, 1);
+  --color-red-layer: rgba(255, 0, 0, 0.75);
+  --color-red: rgba(255, 0, 0, 1);
+  --color-layer: rgba(0, 0, 0, 0.55);
+  --color-custom-black: rgba(27, 34, 40, 1);
+
+  --font-jakrata: "Plus Jakarta Sans", sans-serif;
+  --font-manrope: "Manrope", sans-serif;
+
+  --leading-26: 26px;
+  --leading-30: 30px;
+  --leading-99: 99%;
+  --leading-100: 100%;
+  --leading-110: 110%;
+  --leading-127: 127%;
+  --leading-128: 128%;
+  --leading-150: 150%;
+  --leading-160: 160%;
+  --leading-180: 180%;
+  --leading-182: 182%;
+
+  --shadow-card-shadow: 0px 0px 12px 3px rgba(182, 182, 182, 0.25);
+  --shadow-d-card-shadow: 0px 1px 28px 1px rgba(71, 71, 71, 0.1);
+  --shadow-scroll-card-shadow: 0px 2px 44px 3px rgba(87, 87, 87, 0.1);
+  --shadow-accordion-shadow: 0px 2px 44px 3px rgba(87, 87, 87, 0.1);
+
+  --breakpoint-nav: 992px;
+}

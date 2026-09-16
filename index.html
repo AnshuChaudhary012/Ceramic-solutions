@@ -1,0 +1,1200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>𝗖𝗘𝗥𝗔𝗠𝗜𝗖 𝗦𝗢𝗟𝗨𝗧𝗜𝗢𝗡𝗦</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="assets/images/png/fav.png" type="image/png" />
+  <link rel="stylesheet" href="/src/output.css">
+</head>
+
+<body class="font-jakrata">
+  <section class="min-h-fit bg-center bg-cover w-full" style="background-image: url(assets/images/webp/bg.webp);">
+    <div class="bg-layer w-full px-4">
+      <header class="w-full h-auto pt-6">
+        <div class="container w-full max-w-285 mx-auto">
+          <nav class="navbar w-full flex justify-between items-center bg-white rounded-24 py-2 px-3 sm:p-4">
+            <div class="left">
+              <div class="logo max-w-26.5 w-full">
+                <a href="">
+                  <img width="106" height="52" class="object-cover w-full h-auto" src="assets/images/png/logo.png"
+                    alt="logo" />
+                </a>
+              </div>
+            </div>
+
+            <div class="middle hidden nav:flex gap-28">
+              <div class="mid-item">
+                <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+                  href="">
+                  Home
+                </a>
+              </div>
+
+              <div class="mid-item">
+                <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+                  href="">
+                  About
+                </a>
+              </div>
+
+              <div class="mid-item">
+                <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+                  href="">
+                  Services
+                </a>
+              </div>
+
+              <div class="mid-item">
+                <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+                  href="">
+                  Portfolio
+                </a>
+              </div>
+
+              <div class="mid-item">
+                <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+                  href="">
+                  Contact us
+                </a>
+              </div>
+
+              <div class="mid-item">
+                <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+                  href="">
+                  Request a Quote
+                </a>
+              </div>
+            </div>
+
+            <button id="menuBtn"
+              class="nav:hidden relative z-60 flex h-8 w-5 cursor-pointer flex-col items-center justify-center gap-1.75"
+              aria-label="Toggle menu">
+              <span id="line1" class="block h-0.5 w-full bg-black transition-all duration-500 ease-in-out"></span>
+
+              <span id="line2" class="block h-0.5 w-full bg-black transition-all duration-500 ease-in-out"></span>
+
+              <span id="line3" class="block h-0.5 w-full bg-black transition-all duration-500 ease-in-out"></span>
+            </button>
+
+            <div class="right hidden nav:block">
+              <button
+                class="contact-btn group relative isolate max-w-46.5 w-full h-14 overflow-hidden rounded-56 border border-solid border-transparent bg-red px-5 py-3.5 flex items-center gap-10 cursor-pointer transition-colors duration-700 ease-in-out hover:border-red ">
+                <span
+                  class="absolute left-1/2 top-1/2 h-0 w-0  bg-white transition-all duration-700 ease-out group-hover:w-47 group-hover:h-45 rounded-full -translate-x-1/2 -translate-y-1/2"></span>
+
+                <svg
+                  class="relative z-10 shrink-0 text-white transition-colors duration-700 ease-in-out group-hover:text-red"
+                  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.05 14.95L9.2 16.8C8.81 17.19 8.19 17.19 7.79 16.81C7.68 16.7 7.57 16.6 7.46 16.49C6.43 15.45 5.5 14.36 4.67 13.22C3.85 12.08 3.19 10.94 2.71 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C10.83 13.32 10.94 13.42 11.04 13.52C11.44 13.91 11.45 14.55 11.05 14.95Z"
+                    fill="currentColor" />
+
+                  <path
+                    d="M21.9696 18.33C21.9696 18.61 21.9196 18.9 21.8196 19.18C21.7896 19.26 21.7596 19.34 21.7196 19.42C21.5496 19.78 21.3296 20.12 21.0396 20.44C20.5496 20.98 20.0096 21.37 19.3996 21.62C19.3896 21.62 19.3796 21.63 19.3696 21.63C18.7796 21.87 18.1396 22 17.4496 22C16.4296 22 15.3396 21.76 14.1896 21.27C13.0396 20.78 11.8896 20.12 10.7496 19.29C10.3596 19 9.96961 18.71 9.59961 18.4L12.8696 15.13C13.1496 15.34 13.3996 15.5 13.6096 15.61C13.6596 15.63 13.7196 15.66 13.7896 15.69C13.8696 15.72 13.9496 15.73 14.0396 15.73C14.2096 15.73 14.3396 15.67 14.4496 15.56L15.2096 14.81C15.4596 14.56 15.6996 14.37 15.9296 14.25C16.1596 14.11 16.3896 14.04 16.6396 14.04C16.8296 14.04 17.0296 14.08 17.2496 14.17C17.4696 14.26 17.6996 14.39 17.9496 14.56L21.2596 16.91C21.5196 17.09 21.6996 17.3 21.8096 17.55C21.9096 17.8 21.9696 18.05 21.9696 18.33Z"
+                    fill="currentColor" />
+                </svg>
+
+                <a class="relative z-10 text-base leading-100 text-nowrap font-bold text-white transition-colors duration-700 ease-in-out group-hover:text-red"
+                  href="tel:(865) 621-1717">
+                  (865) 621-1717
+                </a>
+              </button>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <div id="mobileSidebar"
+        class="nav:hidden fixed flex items-center justify-center top-0 right-0 z-50 h-screen w-[80%] max-w-100 translate-x-full bg-white p-8 transition-transform duration-700 ease-in-out">
+        <div class="items flex flex-col gap-5 items-center justify-center">
+          <div class="mid-item">
+            <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+              href="">
+              Home
+            </a>
+          </div>
+
+          <div class="mid-item">
+            <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+              href="">
+              About
+            </a>
+          </div>
+
+          <div class="mid-item">
+            <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+              href="">
+              Services
+            </a>
+          </div>
+
+          <div class="mid-item">
+            <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+              href="">
+              Portfolio
+            </a>
+          </div>
+
+          <div class="mid-item">
+            <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+              href="">
+              Contact us
+            </a>
+          </div>
+
+          <div class="mid-item">
+            <a class="relative inline-block font-normal leading-160 text-base after:absolute after:left-0 after:-bottom-px after:h-0.5 after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+              href="">
+              Request a Quote
+            </a>
+          </div>
+          <button
+            class="contact-btn group relative isolate max-w-46.5 w-full h-14 overflow-hidden rounded-56 border border-solid border-transparent bg-red px-5 py-3.5 flex items-center gap-10 cursor-pointer transition-colors duration-700 ease-in-out hover:border-red hover:bg-white">
+            <span
+              class="absolute inset-y-0 left-0 -z-10 w-0 bg-white transition-all duration-700 ease-in-out group-hover:w-full"></span>
+
+            <svg
+              class="relative z-10 shrink-0 text-white transition-colors duration-700 ease-in-out group-hover:text-red"
+              width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.05 14.95L9.2 16.8C8.81 17.19 8.19 17.19 7.79 16.81C7.68 16.7 7.57 16.6 7.46 16.49C6.43 15.45 5.5 14.36 4.67 13.22C3.85 12.08 3.19 10.94 2.71 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C10.83 13.32 10.94 13.42 11.04 13.52C11.44 13.91 11.45 14.55 11.05 14.95Z"
+                fill="currentColor" />
+
+              <path
+                d="M21.9696 18.33C21.9696 18.61 21.9196 18.9 21.8196 19.18C21.7896 19.26 21.7596 19.34 21.7196 19.42C21.5496 19.78 21.3296 20.12 21.0396 20.44C20.5496 20.98 20.0096 21.37 19.3996 21.62C19.3896 21.62 19.3796 21.63 19.3696 21.63C18.7796 21.87 18.1396 22 17.4496 22C16.4296 22 15.3396 21.76 14.1896 21.27C13.0396 20.78 11.8896 20.12 10.7496 19.29C10.3596 19 9.96961 18.71 9.59961 18.4L12.8696 15.13C13.1496 15.34 13.3996 15.5 13.6096 15.61C13.6596 15.63 13.7196 15.66 13.7896 15.69C13.8696 15.72 13.9496 15.73 14.0396 15.73C14.2096 15.73 14.3396 15.67 14.4496 15.56L15.2096 14.81C15.4596 14.56 15.6996 14.37 15.9296 14.25C16.1596 14.11 16.3896 14.04 16.6396 14.04C16.8296 14.04 17.0296 14.08 17.2496 14.17C17.4696 14.26 17.6996 14.39 17.9496 14.56L21.2596 16.91C21.5196 17.09 21.6996 17.3 21.8096 17.55C21.9096 17.8 21.9696 18.05 21.9696 18.33Z"
+                fill="currentColor" />
+            </svg>
+
+            <a class="relative z-10 text-base leading-100 text-nowrap font-bold text-white transition-colors duration-700 ease-in-out group-hover:text-red"
+              href="tel:(865) 621-1717">
+              (865) 621-1717
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <div class="container max-w-285 w-full mx-auto">
+        <div class="row w-full pb-6 pt-15 lg:pt-18">
+          <div class="text max-w-207.5 w-full">
+            <h1 class="heading text-[clamp(28px,4.444vw,64px)] leading-127 text-white font-semibold">
+              Transform Your Space with Precision and Quality: <br />
+              Get a Free Quote Today!
+            </h1>
+            <p class="para font-normal leading-182 max-w-175 text-white mt-3 sm:mt-5">
+              Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+              Pregigt primasofi dede facebooka: förutom tivaligt. Fejkade
+              nyheter eurosamma sol: teroktig,
+            </p>
+          </div>
+          <button
+            class="contact-btn group mt-[clamp(18px,2.5vw,36px)] relative isolate max-w-43.25 w-full h-12.5 md:h-15.75 text-white overflow-hidden rounded-56 border border-solid border-transparent bg-red cursor-pointer transition-colors duration-700 ease-in-out hover:border-red">
+            <span
+              class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full group-hover:h-45 group-hover:w-47.5 -z-10 group-hover:opacity-100 bg-white transition-all duration-700 ease-out"></span>
+            <span
+              class="z-50 text-white font-bold text-lg leading-100 transition-all duration-700 ease-in-out group-hover:text-red">Get
+              a Quote</span>
+          </button>
+          <div class="reviews mt-[clamp(36px,5vw,72px)] w-full flex gap-6 flex-wrap">
+            <div class="cards font-manrope flex flex-wrap gap-6">
+              <div
+                class="google cursor-pointer flex items-center gap-10 max-w-57.25 border-[0.83px] border-solid border-border bg-white rounded-16 pt-2 pb-1.5 pl-4 pr-11.25">
+                <img width="40" height="40" class="object-contain size-[40px]" src="assets/images/png/google_img.png"
+                  alt="google" />
+                <div class="info flex flex-col">
+                  <h1 class="heading text-xs leading-160 font-normal text-black">
+                    Google Review
+                  </h1>
+                  <div class="stars flex gap-1 items-center">
+                    <h1 class="rating text-[20px]">4.6</h1>
+                    <img width="88" height="16" class="max-w-22 w-full h-4 object-cover"
+                      src="assets/images/webp/5-star.webp" alt="5-star" />
+                  </div>
+                  <h1 class="total-reviews text-xs leading-160 font-normal text-black text-nowrap">
+                    Based on 145 reviews
+                  </h1>
+                </div>
+              </div>
+              <div
+                class="trusted-pilot cursor-pointer flex items-center gap-10 max-w-57.25 border-[0.83px] border-solid border-border bg-white rounded-16 pt-2 pb-1.5 pl-2 pr-11.25">
+                <img width="53" height="53" class="object-contain size-13.25" src="assets/images/webp/star.webp"
+                  alt="star" />
+                <div class="info flex flex-col">
+                  <h1 class="heading text-xs leading-160 font-normal text-black">
+                    Trusted Pilot Review
+                  </h1>
+                  <div class="stars flex gap-1 items-center">
+                    <h1 class="rating text-[20px]">4.6</h1>
+                    <img width="88" height="16" class="max-w-22 w-full h-4 object-cover"
+                      src="assets/images/webp/5-star.webp" alt="5-star" />
+                  </div>
+                  <h1 class="total-reviews text-xs leading-160 font-normal text-black text-nowrap">
+                    Based on 145 reviews
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="awards-certifications flex gap-6">
+              <img width="80" height="80" class="object-cover size-20" src="assets/images/png/1hero.png"
+                alt="certified" />
+              <img width="80" height="80" class="object-cover size-20" src="assets/images/png/2hero.png" alt="awards" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="min-h-fit w-full px-4 bg-white">
+    <div class="container max-w-285 w-full mx-auto">
+      <div class="row w-full lg:pt-43.5 lg:pb-35 md:py-20 py-15">
+        <h1 class="heading text-center text-[clamp(28px,3.8889vw,56px)] leading-128 text-black font-semibold">
+          What We Do?
+        </h1>
+        <div
+          class="cards mt-[clamp(28px,3.8889vw,56px)] w-full grid items-center justify-center sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          id="card-container">
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="min-h-fit bg-pink px-4">
+    <div class="container max-w-285 w-full mx-auto">
+      <div class="row flex flex-col gap-5 nav:gap-0 nav:flex-row lg:py-25 md:py-20 py-15">
+        <div class="left max-w-147.5 w-full">
+          <h1 class="heading text-[clamp(28px,3.8889vw,56px)] font-semibold text-black leading-128">
+            Why Choose us?
+          </h1>
+          <p
+            class="para text-black font-normal leading-160 text-[clamp(14px,1.25vw,18px)] mt-[clamp(10px,1.3889vw,20px)]">
+            Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+            Pregigt primasofi dede facebooka: förutom tivaligt.
+          </p>
+          <div class="cards-section-3 max-w-113 mt-[clamp(16px,2.2222vw,32px)] flex flex-col gap-6">
+            <div class="card-1 w-full h-24">
+              <div class="card-content flex gap-5">
+                <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="62" height="62" rx="10" fill="#B40001" fill-opacity="0.1" />
+                  <path opacity="0.15"
+                    d="M31 37.6667L23 41.6667L25 33.6667L19 27L27.6667 26.3333L31 19L34.3333 26.3333L43 27L37 33.6667L39 41.6667L31 37.6667Z"
+                    fill="#FF0000" />
+                  <path
+                    d="M31 37.6667L23 41.6667L25 33.6667L19 27L27.6667 26.3333L31 19L34.3333 26.3333L43 27L37 33.6667L39 41.6667L31 37.6667Z"
+                    stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <div class="text-content">
+                  <h1 class="heading font-semibold text-[clamp(14px,1.3889vw,20px)] text-black leading-160">
+                    High Quality Materials
+                  </h1>
+                  <p class="para mt-3 text-black text-[clamp(14px,1.1111vw,16px)] max-w-92.5 leading-160">
+                    Es ist ein lang erwiesener Fakt, dass ein Leser vom Text
+                    abgelenkt wird.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card-2 w-full h-24">
+              <div class="card-content flex gap-5">
+                <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="62" height="62" rx="10" fill="#B40001" fill-opacity="0.1" />
+                  <path opacity="0.15" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M25.667 28.3336V41.667H38.1475C39.4187 41.667 40.5131 40.7697 40.7624 39.5233L42.3624 31.5233C42.6924 29.8732 41.4303 28.3336 39.7475 28.3336H33.667L36.9013 23.4821C37.9242 21.9478 37.1183 19.8631 35.3293 19.4159L35.2659 19.4C34.286 19.155 33.2518 19.4847 32.5944 20.2516L25.667 28.3336Z"
+                    fill="#FF0000" />
+                  <path
+                    d="M25.6663 28.3337V41.667M25.6663 41.667L38.1469 41.667C39.418 41.667 40.5125 40.7697 40.7617 39.5233L42.3617 31.5233C42.6918 29.8732 41.4297 28.3336 39.7469 28.3336H33.6663L36.9007 23.4821C37.9236 21.9478 37.1177 19.8631 35.3286 19.4159L35.2652 19.4C34.2853 19.155 33.2511 19.4847 32.5938 20.2516L25.6663 28.3337L20.333 28.3336V41.667L25.6663 41.667Z"
+                    stroke="#FF0000" stroke-width="2.0625" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+                <div class="text-content">
+                  <h1 class="heading font-semibold text-[clamp(14px,1.3889vw,20px)] text-black leading-160">
+                    Durability with Warranty
+                  </h1>
+                  <p class="para mt-3 text-black text-[clamp(14px,1.1111vw,16px)] max-w-92.5 leading-160">
+                    Es ist ein lang erwiesener Fakt, dass ein Leser vom Text
+                    abgelenkt wird.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card-3 w-full h-24">
+              <div class="card-content flex gap-5">
+                <svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="62" height="62" rx="10" fill="#B40001" fill-opacity="0.1" />
+                  <path opacity="0.15"
+                    d="M42.9992 36.9689V40.5819C43.0048 41.9631 41.7629 43.1164 40.3685 42.9906C28.3333 43 19 33.58 19.0094 21.6256C18.8838 20.2386 20.0314 19.0014 21.4108 19.0001H25.031C25.6166 18.9944 26.1844 19.2013 26.6284 19.5825C27.8908 20.666 28.7028 24.3437 28.3904 25.8057C28.1465 26.9472 26.9959 27.7457 26.2136 28.5265C27.9314 31.5416 30.4329 34.0381 33.454 35.7525C34.2362 34.9718 35.0364 33.8234 36.1801 33.58C37.6473 33.2677 41.3486 34.0809 42.4278 35.3521C42.8105 35.8028 43.0139 36.3783 42.9992 36.9689Z"
+                    fill="#FF0000" />
+                  <path
+                    d="M34.3333 23.6667C35.3162 23.8584 36.2919 24.2919 37 25C37.7081 25.7081 38.1416 26.6838 38.3333 27.6667M35 19C37.042 19.2269 38.8796 20.2148 40.3333 21.6667C41.7871 23.1186 42.7706 24.9582 43 27M42.9992 36.9689V40.5819C43.0048 41.963 41.7629 43.1164 40.3685 42.9906C28.3333 43 19 33.58 19.0094 21.6256C18.8838 20.2386 20.0314 19.0014 21.4108 19.0001H25.031C25.6166 18.9944 26.1844 19.2013 26.6284 19.5825C27.8908 20.666 28.7028 24.3437 28.3904 25.8057C28.1465 26.9472 26.9959 27.7457 26.2136 28.5265C27.9314 31.5416 30.4329 34.0381 33.454 35.7525C34.2362 34.9718 35.0364 33.8234 36.1801 33.58C37.6473 33.2677 41.3486 34.0809 42.4278 35.3521C42.8105 35.8028 43.0139 36.3783 42.9992 36.9689Z"
+                    stroke="#FF0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+                <div class="text-content">
+                  <h1 class="heading font-semibold text-[clamp(14px,1.3889vw,20px)] text-black leading-160">
+                    24/7 Support
+                  </h1>
+                  <p class="para mt-3 text-black text-[clamp(14px,1.1111vw,16px)] max-w-92.5 leading-160">
+                    Es ist ein lang erwiesener Fakt, dass ein Leser vom Text
+                    abgelenkt wird.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="contact-btn group mt-[clamp(18px,2.5vw,36px)] relative isolate max-w-43.25 w-full h-12.5 md:h-15.75 text-white overflow-hidden rounded-56 border border-solid border-transparent bg-red cursor-pointer transition-colors duration-700 ease-in-out hover:border-red">
+            <span
+              class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full group-hover:h-45 group-hover:w-47.5 bg-pink transition-all duration-700 ease-out"></span>
+            <span
+              class="z-50 relative text-white font-bold text-lg leading-100 transition-all duration-700 ease-in-out group-hover:text-red">Get
+              a Quote</span>
+          </button>
+        </div>
+        <div class="right max-w-137.25">
+          <div class="group cursor-pointer relative max-w-117.25 w-full">
+            <div
+              class="absolute bottom-0 left-0 max-w-75 w-full h-[clamp(250px,42.22vw,396px)] lg:h-99 rounded-24 bg-red transition-all duration-700 ease-in-out">
+            </div>
+
+            <div
+              class="relative z-10 max-w-117.25 w-full h-[clamp(330px,55.76vw,523px)] lg:h-130.75 overflow-hidden rounded-24 transition-all duration-700 ease-in-out group-hover:-translate-y-16.25 group-hover:translate-x-16.25">
+              <img src="assets/images/webp/red-photo.webp" alt="room" class="w-full h-full object-cover" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="min-h-fit lg:pt-35 md:pt-20 pt-15">
+    <div class="container max-w-285 w-full mx-auto px-4">
+      <div class="row w-full flex nav:items-center flex-col justify-center">
+        <h1 class="heading font-semibold text-[clamp(28px,3.8889vw,56px)] nav:text-center text-black leading-100">
+          What Our Customers Say
+        </h1>
+        <p
+          class="para max-w-160.25 nav:text-center mt-5 text-black font-normal text-[clamp(14px,1.25vw,18px)] leading-160">
+          Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
+          primasofi dede facebooka: förutom tivaligt. Fejkade
+        </p>
+        <div class="cards font-manrope flex flex-wrap nav:justify-center gap-6 mt-[clamp(16px,2.2222vw,32px)]">
+          <div
+            class="google cursor-pointer flex items-center gap-10 max-w-57.25 border-[0.83px] border-solid border-border bg-white rounded-16 pt-2 pb-1.5 pl-4 pr-11.25">
+            <img width="40" height="40" class="object-contain size-[40px]" src="assets/images/webp/google.webp"
+              alt="google" />
+            <div class="info flex flex-col">
+              <h1 class="heading text-xs leading-160 font-normal text-black">
+                Google Review
+              </h1>
+              <div class="stars flex gap-1 items-center">
+                <h1 class="rating text-[20px]">4.6</h1>
+                <img width="88" height="16" class="max-w-22 w-full h-4 object-cover"
+                  src="assets/images/webp/5-star.webp" alt="5-star" />
+              </div>
+              <h1 class="total-reviews text-xs leading-160 font-normal text-black text-nowrap">
+                Based on 145 reviews
+              </h1>
+            </div>
+          </div>
+          <div
+            class="trusted-pilot cursor-pointer flex items-center gap-10 max-w-57.25 border-[0.83px] border-solid border-border bg-white rounded-16 pt-2 pb-1.5 pl-2 pr-11.25">
+            <img width="53" height="53" class="object-contain size-13.25" src="assets/images/webp/star.webp"
+              alt="star" />
+            <div class="info flex flex-col">
+              <h1 class="heading text-xs leading-160 font-normal text-black">
+                Trusted Pilot Review
+              </h1>
+              <div class="stars flex gap-1 items-center">
+                <h1 class="rating text-[20px]">4.6</h1>
+                <img width="88" height="16" class="max-w-22 w-full h-4 object-cover"
+                  src="assets/images/webp/5-star.webp" alt="5-star" />
+              </div>
+              <h1 class="total-reviews text-xs leading-160 font-normal text-black text-nowrap">
+                Based on 145 reviews
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overflow-hidden w-full">
+      <div
+        class="scroll-cards-inf pb-15 md:ob0[80px] lg:pb-35 w-full mt-[clamp(28px,3.8889vw,56px)] font-manrope flex flex-row gap-6">
+        <div class="card-scroll-1 shrink-0 cursor-pointer max-w-91 w-full shadow-scroll-card-shadow rounded-24 p-6">
+          <div class="user-info flex gap-2 items-center">
+            <img width="40" height="40" class="rounded-full object-cover size-[40px]"
+              src="assets/images/webp/user-1.webp" alt="user" />
+            <div class="user-text">
+              <h1 class="name text-base font-semibold text-black leading-160">
+                Mark T.
+              </h1>
+              <p class="profession text-black text-sm font-normal leading-160">
+                Fitness enthusiast
+              </p>
+            </div>
+          </div>
+          <div class="stars mt-4">
+            <svg width="120" height="24" viewBox="0 0 120 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                fill="#FCB547" />
+            </svg>
+          </div>
+          <p class="comment text-base text-black font-normal leading-160 max-w-79 mt-4">
+            "As a fitness enthusiast, I was skeptical about resistance bands
+            at first. But after trying these, I'm a believer. The quality is
+            top-notch, and they've become an integral part of my workout
+            routine. I can't believe how versatile they are.”
+          </p>
+        </div>
+        <div class="card-scroll-2 shrink-0 cursor-pointer max-w-91 w-full shadow-scroll-card-shadow rounded-24 p-6">
+          <div class="user-info flex gap-2 items-center">
+            <img width="40" height="40" class="rounded-full object-cover size-[40px]"
+              src="assets/images/webp/user-2.webp" alt="user" />
+            <div class="user-text">
+              <h1 class="name text-base font-semibold text-black leading-160">
+                Mark T.
+              </h1>
+              <p class="profession text-black text-sm font-normal leading-160">
+                Fitness enthusiast
+              </p>
+            </div>
+          </div>
+          <div class="stars mt-4">
+            <svg width="120" height="24" viewBox="0 0 120 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                fill="#FCB547" />
+            </svg>
+          </div>
+          <p class="comment text-base text-black font-normal leading-160 max-w-79 mt-4">
+            "As a fitness enthusiast, I was skeptical about resistance bands
+            at first. But after trying these, I'm a believer. The quality is
+            top-notch, and they've become an integral part of my workout
+            routine. I can't believe how versatile they are.”
+          </p>
+        </div>
+        <div class="card-scroll-3 shrink-0 cursor-pointer max-w-91 w-full shadow-scroll-card-shadow rounded-24 p-6">
+          <div class="user-info flex gap-2 items-center">
+            <img width="40" height="40" class="rounded-full object-cover size-[40px]"
+              src="assets/images/webp/user-3.webp" alt="user" />
+            <div class="user-text">
+              <h1 class="name text-base font-semibold text-black leading-160">
+                Mark T.
+              </h1>
+              <p class="profession text-black text-sm font-normal leading-160">
+                Fitness enthusiast
+              </p>
+            </div>
+          </div>
+          <div class="stars mt-4">
+            <svg width="120" height="24" viewBox="0 0 120 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                fill="#FCB547" />
+            </svg>
+          </div>
+          <p class="comment text-base text-black font-normal leading-160 max-w-79 mt-4">
+            "As a fitness enthusiast, I was skeptical about resistance bands
+            at first. But after trying these, I'm a believer. The quality is
+            top-notch, and they've become an integral part of my workout
+            routine. I can't believe how versatile they are.”
+          </p>
+        </div>
+        <div class="card-scroll-4 shrink-0 cursor-pointer max-w-91 w-full shadow-scroll-card-shadow rounded-24 p-6">
+          <div class="user-info flex gap-2 items-center">
+            <img width="40" height="40" class="rounded-full object-cover size-[40px]"
+              src="assets/images/webp/user-4.webp" alt="user" />
+            <div class="user-text">
+              <h1 class="name text-base font-semibold text-black leading-160">
+                Mark T.
+              </h1>
+              <p class="profession text-black text-sm font-normal leading-160">
+                Fitness enthusiast
+              </p>
+            </div>
+          </div>
+          <div class="stars mt-4">
+            <svg width="120" height="24" viewBox="0 0 120 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z"
+                fill="#FCB547" />
+              <path
+                d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z"
+                fill="#FCB547" />
+            </svg>
+          </div>
+          <p class="comment text-base text-black font-normal leading-160 max-w-79 mt-4">
+            "As a fitness enthusiast, I was skeptical about resistance bands
+            at first. But after trying these, I'm a believer. The quality is
+            top-notch, and they've become an integral part of my workout
+            routine. I can't believe how versatile they are.”
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="min-h-fit w-full px-4">
+    <div class="container max-w-285 w-full mx-auto">
+      <div class="row w-full flex flex-col nav:flex-row gap-[clamp(32px,4.375vw,63px)] lg:pb-35 md:pb-20 pb-15">
+        <div class="left">
+          <div class="group relative max-w-108.75 w-full">
+            <div
+              class="absolute bottom-0 left-0 max-w-75 w-full h-[clamp(250px,42.22vw,396px)] lg:h-99 rounded-24 bg-red">
+            </div>
+
+            <div
+              class="relative z-10 max-w-108.75 w-full h-[clamp(380px,61.97vw,581px)] lg:h-145.25 overflow-hidden rounded-24 transition-all duration-700 ease-in-out group-hover:-translate-y-16.25 group-hover:translate-x-16.25">
+              <img src="assets/images/webp/red-photo-2.webp" alt="room" class="w-full h-full object-cover" />
+            </div>
+          </div>
+        </div>
+        <div class="right max-w-148">
+          <h1 class="heading font-semibold text-[clamp(28px,3.8889vw,56px)] text-black leading-100">
+            How it works?
+          </h1>
+          <p
+            class="para text-[clamp(14px,1.25vw,18px)] mt-[clamp(10px,1.3889vw,20px)] text-black leading-160 font-normal">
+            Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+            Pregigt primasofi dede facebooka: förutom tivaligt.
+          </p>
+          <div class="description-cards flex flex-col gap-4 mt-[clamp(16px,2.2222vw,32px)]">
+            <div
+              class="d-card rounded-24 shadow-d-card-shadow cursor-pointer bg-white p-4 transition-all duration-500 ease-in-out group hover:bg-red">
+              <div class="content flex gap-4 md:gap-5">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="shrink-0">
+                  <path class="transition-all duration-500 ease-in-out group-hover:fill-white"
+                    d="M28.7462 14.3198L26.9329 12.2131C26.5862 11.8131 26.3062 11.0664 26.3062 10.5331V8.26642C26.3062 6.85309 25.1462 5.69309 23.7328 5.69309H21.4662C20.9462 5.69309 20.1862 5.41309 19.7862 5.06642L17.6795 3.25309C16.7595 2.46642 15.2529 2.46642 14.3195 3.25309L12.2262 5.07975C11.8262 5.41309 11.0662 5.69309 10.5462 5.69309H8.23952C6.82618 5.69309 5.66618 6.85309 5.66618 8.26642V10.5464C5.66618 11.0664 5.38618 11.8131 5.05285 12.2131L3.25285 14.3331C2.47952 15.2531 2.47952 16.7464 3.25285 17.6664L5.05285 19.7864C5.38618 20.1864 5.66618 20.9331 5.66618 21.4531V23.7331C5.66618 25.1464 6.82618 26.3064 8.23952 26.3064H10.5462C11.0662 26.3064 11.8262 26.5864 12.2262 26.9331L14.3329 28.7464C15.2529 29.5331 16.7595 29.5331 17.6929 28.7464L19.7995 26.9331C20.1995 26.5864 20.9462 26.3064 21.4795 26.3064H23.7462C25.1595 26.3064 26.3195 25.1464 26.3195 23.7331V21.4664C26.3195 20.9464 26.5995 20.1864 26.9462 19.7864L28.7595 17.6798C29.5329 16.7598 29.5329 15.2398 28.7462 14.3198ZM21.5462 13.4798L15.1062 19.9198C14.9195 20.1064 14.6662 20.2131 14.3995 20.2131C14.1329 20.2131 13.8795 20.1064 13.6929 19.9198L10.4662 16.6931C10.0795 16.3064 10.0795 15.6664 10.4662 15.2798C10.8529 14.8931 11.4929 14.8931 11.8795 15.2798L14.3995 17.7998L20.1329 12.0664C20.5195 11.6798 21.1595 11.6798 21.5462 12.0664C21.9329 12.4531 21.9329 13.0931 21.5462 13.4798Z"
+                    fill="#FF0000" />
+                </svg>
+                <div class="text-content max-w-127">
+                  <h1
+                    class="card-heading leading-160 text-black text-[clamp(14px,1.3889vw,20px)] transition-all duration-500 ease-in-out group-hover:text-white">
+                    Contact us
+                  </h1>
+                  <p
+                    class="para mt-3 text-black leading-160 text-[clamp(14px,1.1111vw,16px)] transition-all duration-500 ease-in-out group-hover:text-white">
+                    Lörem ipsum deligen vuprer diar faktigt på dehädiska att
+                    sara. Persion. Repp löng blippbetalning. Megaliga fadat om
+                    än dening
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-card rounded-24 shadow-d-card-shadow cursor-pointer bg-white p-4 transition-all duration-500 ease-in-out group hover:bg-red">
+              <div class="content flex gap-4 md:gap-5">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="shrink-0">
+                  <path class="transition-all duration-500 ease-in-out group-hover:fill-white"
+                    d="M28.7462 14.3198L26.9329 12.2131C26.5862 11.8131 26.3062 11.0664 26.3062 10.5331V8.26642C26.3062 6.85309 25.1462 5.69309 23.7328 5.69309H21.4662C20.9462 5.69309 20.1862 5.41309 19.7862 5.06642L17.6795 3.25309C16.7595 2.46642 15.2529 2.46642 14.3195 3.25309L12.2262 5.07975C11.8262 5.41309 11.0662 5.69309 10.5462 5.69309H8.23952C6.82618 5.69309 5.66618 6.85309 5.66618 8.26642V10.5464C5.66618 11.0664 5.38618 11.8131 5.05285 12.2131L3.25285 14.3331C2.47952 15.2531 2.47952 16.7464 3.25285 17.6664L5.05285 19.7864C5.38618 20.1864 5.66618 20.9331 5.66618 21.4531V23.7331C5.66618 25.1464 6.82618 26.3064 8.23952 26.3064H10.5462C11.0662 26.3064 11.8262 26.5864 12.2262 26.9331L14.3329 28.7464C15.2529 29.5331 16.7595 29.5331 17.6929 28.7464L19.7995 26.9331C20.1995 26.5864 20.9462 26.3064 21.4795 26.3064H23.7462C25.1595 26.3064 26.3195 25.1464 26.3195 23.7331V21.4664C26.3195 20.9464 26.5995 20.1864 26.9462 19.7864L28.7595 17.6798C29.5329 16.7598 29.5329 15.2398 28.7462 14.3198ZM21.5462 13.4798L15.1062 19.9198C14.9195 20.1064 14.6662 20.2131 14.3995 20.2131C14.1329 20.2131 13.8795 20.1064 13.6929 19.9198L10.4662 16.6931C10.0795 16.3064 10.0795 15.6664 10.4662 15.2798C10.8529 14.8931 11.4929 14.8931 11.8795 15.2798L14.3995 17.7998L20.1329 12.0664C20.5195 11.6798 21.1595 11.6798 21.5462 12.0664C21.9329 12.4531 21.9329 13.0931 21.5462 13.4798Z"
+                    fill="#FF0000" />
+                </svg>
+                <div class="text-content max-w-127">
+                  <h1
+                    class="card-heading leading-160 text-black text-[clamp(14px,1.3889vw,20px)] transition-all duration-500 ease-in-out group-hover:text-white">
+                    Get a Qoute
+                  </h1>
+                  <p
+                    class="para mt-3 text-black leading-160 text-[clamp(14px,1.1111vw,16px)] transition-all duration-500 ease-in-out group-hover:text-white">
+                    Lörem ipsum deligen vuprer diar faktigt på dehädiska att
+                    sara. Persion. Repp löng blippbetalning. Megaliga fadat om
+                    än dening
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-card rounded-24 shadow-d-card-shadow cursor-pointer bg-white p-4 transition-all duration-500 ease-in-out group hover:bg-red">
+              <div class="content flex gap-4 md:gap-5">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"
+                  class="shrink-0">
+                  <path class="transition-all duration-500 ease-in-out group-hover:fill-white"
+                    d="M28.7462 14.3198L26.9329 12.2131C26.5862 11.8131 26.3062 11.0664 26.3062 10.5331V8.26642C26.3062 6.85309 25.1462 5.69309 23.7328 5.69309H21.4662C20.9462 5.69309 20.1862 5.41309 19.7862 5.06642L17.6795 3.25309C16.7595 2.46642 15.2529 2.46642 14.3195 3.25309L12.2262 5.07975C11.8262 5.41309 11.0662 5.69309 10.5462 5.69309H8.23952C6.82618 5.69309 5.66618 6.85309 5.66618 8.26642V10.5464C5.66618 11.0664 5.38618 11.8131 5.05285 12.2131L3.25285 14.3331C2.47952 15.2531 2.47952 16.7464 3.25285 17.6664L5.05285 19.7864C5.38618 20.1864 5.66618 20.9331 5.66618 21.4531V23.7331C5.66618 25.1464 6.82618 26.3064 8.23952 26.3064H10.5462C11.0662 26.3064 11.8262 26.5864 12.2262 26.9331L14.3329 28.7464C15.2529 29.5331 16.7595 29.5331 17.6929 28.7464L19.7995 26.9331C20.1995 26.5864 20.9462 26.3064 21.4795 26.3064H23.7462C25.1595 26.3064 26.3195 25.1464 26.3195 23.7331V21.4664C26.3195 20.9464 26.5995 20.1864 26.9462 19.7864L28.7595 17.6798C29.5329 16.7598 29.5329 15.2398 28.7462 14.3198ZM21.5462 13.4798L15.1062 19.9198C14.9195 20.1064 14.6662 20.2131 14.3995 20.2131C14.1329 20.2131 13.8795 20.1064 13.6929 19.9198L10.4662 16.6931C10.0795 16.3064 10.0795 15.6664 10.4662 15.2798C10.8529 14.8931 11.4929 14.8931 11.8795 15.2798L14.3995 17.7998L20.1329 12.0664C20.5195 11.6798 21.1595 11.6798 21.5462 12.0664C21.9329 12.4531 21.9329 13.0931 21.5462 13.4798Z"
+                    fill="#FF0000" />
+                </svg>
+                <div class="text-content max-w-127">
+                  <h1
+                    class="card-heading leading-160 text-black text-[clamp(14px,1.3889vw,20px)] transition-all duration-500 ease-in-out group-hover:text-white">
+                    Get your Work Done
+                  </h1>
+                  <p
+                    class="para mt-3 text-black leading-160 text-[clamp(14px,1.1111vw,16px)] transition-all duration-500 ease-in-out group-hover:text-white">
+                    Lörem ipsum deligen vuprer diar faktigt på dehädiska att
+                    sara. Persion. Repp löng blippbetalning. Megaliga fadat om
+                    än dening
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="buttons flex-wrap mt-[clamp(18px,2.5vw,36px)] sm:max-w-106.25 flex gap-[clamp(12px,1.6667vw,24px)]">
+            <button
+              class="quote-btn group relative isolate sm:max-w-43.25 w-full h-12.5 md:h-15.75 text-white overflow-hidden rounded-56 border border-solid border-transparent bg-red cursor-pointer transition-colors duration-700 ease-in-out hover:border-red hover:bg-white">
+              <span
+                class="absolute -z-10 bg-white transition-all duration-700 ease-out
+                out left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full group-hover:h-45 group-hover:w-47.5 group-hover:opacity-100"></span>
+              <span
+                class="z-50 relative text-white font-bold text-lg leading-100 transition-all duration-700 ease-in-out group-hover:text-red">Get
+                a Quote</span>
+            </button>
+            <button
+              class="quote-btn group relative isolate sm:max-w-57 w-full h-12.5 md:h-15.75 text-red overflow-hidden rounded-56 border border-solid border-red bg-white cursor-pointer transition-colors duration-700 ease-in-out hover:border-transparent">
+              <span
+                class="absolute group-hover:h-45 group-hover:w-60.5 group-hover:opacity-100 left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full -z-10 bg-red transition-all duration-700 ease-in-out"></span>
+              <span
+                class="z-50 relative text-nowrap text-red font-bold text-lg leading-100 transition-all duration-700 ease-in-out group-hover:text-white">View
+                Tile Visualizer</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="min-h-fit px-4">
+    <div class="container max-w-285 mx-auto w-full bg-center bg-cover bg-no-repeat rounded-24"
+      style="background-image: url(assets/images/webp/bg-2.webp);">
+      <div class="row w-full flex justify-center items-center">
+        <div class="content max-w-148 py-[clamp(32px,4.4444vw,64px)] items-center justify-center flex flex-col">
+          <h1 class="heading text-[clamp(28px,3.8889vw,56px)] text-white leading-100 font-semibold text-center">
+            Interested? <br />Get in touch with us
+          </h1>
+          <p
+            class="para text-white leading-160 text-center mt-[clamp(10px,1.3889vw,20px)] font-normal text-[clamp(14px,1.25vw,18px)]">
+            Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+            Pregigt primasofi dede facebooka: förutom tivaligt.
+          </p>
+          <button
+            class="quote-btn mt-[clamp(18px,2.5vw,36px)] group relative isolate sm:max-w-43.25 w-full h-12.5 md:h-15.75 text-white overflow-hidden rounded-56 border border-solid border-transparent bg-white cursor-pointer transition-colors duration-700 ease-in-out hover:border-white hover:bg-white">
+            <span
+              class="absolute -z-10 bg-red transition-all duration-700 ease-out
+                out left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full group-hover:h-45 group-hover:w-47.5 group-hover:opacity-100"></span>
+            <span
+              class="z-50 relative group-hover:text-white font-bold text-lg leading-100 transition-all duration-700 ease-in-out text-red">Get
+              a Quote</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="min-h-fit px-4">
+    <div class="container max-w-285 w-full mx-auto">
+      <div class="row w-full flex flex-col items-center justify-center py-15 md:py-20 lg:py-35">
+        <h1 class="heading font-semibold text-[clamp(28px,3.8889vw,56px)] leading-100 text-black">
+          Our Blog
+        </h1>
+        <p class="para max-w-148 text-center mt-5">
+          Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
+          primasofi dede facebooka: förutom tivaligt. Fejkade
+        </p>
+
+        <div class="three-cards mt-[clamp(28px,3.8889vw,56px)] flex flex-wrap gap-6 items-center justify-center">
+          <div
+            class="card-1 cursor-pointer max-w-91 w-full shadow-card-shadow p-6 rounded-24 group transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-xl">
+            <img width="316" height="246" class="rounded-12 object-cover" src="assets/images/webp/kitchen.webp"
+              alt="kitchen" />
+            <h1 class="card-heading max-w-75 font-semibold leading-160 mt-6 text-[clamp(18px,1.6667vw,24px)]">
+              Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+            </h1>
+            <div class="learn mt-4 flex gap-10 items-center cursor-pointer">
+              <p class="learn-text text-red leading-160 text-base font-semibold">
+                Learn more
+              </p>
+              <svg class="transition-transform duration-300 ease-in-out group-hover:translate-x-4" width="26"
+                height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.75 4.77344C0.335786 4.77344 0 5.10922 0 5.52344C0 5.93765 0.335786 6.27344 0.75 6.27344V4.77344ZM25.2803 6.05377C25.5732 5.76087 25.5732 5.286 25.2803 4.99311L20.5074 0.220137C20.2145 -0.0727568 19.7396 -0.0727568 19.4467 0.220137C19.1538 0.51303 19.1538 0.987904 19.4467 1.2808L23.6893 5.52344L19.4467 9.76608C19.1538 10.059 19.1538 10.5338 19.4467 10.8267C19.7396 11.1196 20.2145 11.1196 20.5074 10.8267L25.2803 6.05377ZM0.75 6.27344H24.75V4.77344H0.75V6.27344Z"
+                  fill="#FF0000" />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="card-2 cursor-pointer max-w-91 w-full shadow-card-shadow p-6 rounded-24 group transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-xl">
+            <img width="316" height="246" class="rounded-12 object-cover" src="assets/images/webp/kitchen.webp"
+              alt="kitchen" />
+            <h1 class="card-heading max-w-75 font-semibold leading-160 mt-6 text-[clamp(18px,1.6667vw,24px)]">
+              Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+            </h1>
+            <div class="learn mt-4 flex gap-10 items-center cursor-pointer">
+              <p class="learn-text text-red leading-160 text-base font-semibold">
+                Learn more
+              </p>
+              <svg class="transition-transform duration-300 ease-in-out group-hover:translate-x-4" width="26"
+                height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.75 4.77344C0.335786 4.77344 0 5.10922 0 5.52344C0 5.93765 0.335786 6.27344 0.75 6.27344V4.77344ZM25.2803 6.05377C25.5732 5.76087 25.5732 5.286 25.2803 4.99311L20.5074 0.220137C20.2145 -0.0727568 19.7396 -0.0727568 19.4467 0.220137C19.1538 0.51303 19.1538 0.987904 19.4467 1.2808L23.6893 5.52344L19.4467 9.76608C19.1538 10.059 19.1538 10.5338 19.4467 10.8267C19.7396 11.1196 20.2145 11.1196 20.5074 10.8267L25.2803 6.05377ZM0.75 6.27344H24.75V4.77344H0.75V6.27344Z"
+                  fill="#FF0000" />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="card-3 cursor-pointer max-w-91 w-full shadow-card-shadow p-6 rounded-24 group transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-xl">
+            <img width="316" height="246" class="rounded-12 object-cover" src="assets/images/webp/kitchen.webp"
+              alt="kitchen" />
+            <h1 class="card-heading max-w-75 font-semibold leading-160 mt-6 text-[clamp(18px,1.6667vw,24px)]">
+              Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+            </h1>
+            <div class="learn mt-4 flex gap-10 items-center cursor-pointer">
+              <p class="learn-text text-red leading-160 text-base font-semibold">
+                Learn more
+              </p>
+              <svg class="transition-transform duration-300 ease-in-out group-hover:translate-x-4" width="26"
+                height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.75 4.77344C0.335786 4.77344 0 5.10922 0 5.52344C0 5.93765 0.335786 6.27344 0.75 6.27344V4.77344ZM25.2803 6.05377C25.5732 5.76087 25.5732 5.286 25.2803 4.99311L20.5074 0.220137C20.2145 -0.0727568 19.7396 -0.0727568 19.4467 0.220137C19.1538 0.51303 19.1538 0.987904 19.4467 1.2808L23.6893 5.52344L19.4467 9.76608C19.1538 10.059 19.1538 10.5338 19.4467 10.8267C19.7396 11.1196 20.2145 11.1196 20.5074 10.8267L25.2803 6.05377ZM0.75 6.27344H24.75V4.77344H0.75V6.27344Z"
+                  fill="#FF0000" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="min-h-fit px-4">
+    <div class="container max-w-228 mx-auto w-full">
+      <div class="row w-full flex flex-col items-center">
+        <h1 class="heading text-[clamp(28px,3.8889vw,56px)] text-black font-semibold leading-100 text-center">
+          Frequently Asked Questions
+        </h1>
+
+        <p class="para max-w-148 text-center mt-5 font-normal leading-160 text-[clamp(14px,1.25vw,18px)]">
+          Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
+          primasofi dede facebooka: förutom tivaligt. Fejkade
+        </p>
+
+        <div class="accordions w-full flex flex-col mt-[clamp(28px,3.8889vw,56px)] gap-[clamp(12px,1.6667vw,24px)]">
+          <div
+            class="accordion w-full bg-white hover:bg-red p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow group transition-all duration-500 ease-out">
+            <input type="checkbox" id="accordion-toggle-1" class="peer hidden" />
+
+            <label for="accordion-toggle-1"
+              class="flex items-start justify-between list-none cursor-pointer select-none">
+              <div class="accordion-headers">
+                <span
+                  class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out group-hover:text-white">
+                  Lörem ipsum koda astrobel: sutaveligen.
+                </span>
+              </div>
+
+              <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="transition-all duration-500 ease-in-out group-hover:fill-white"
+                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
+                    fill="#FF0000" />
+                </svg>
+              </span>
+            </label>
+
+            <div
+              class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
+              <div class="overflow-hidden">
+                <p
+                  class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out group-hover:text-white">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                  Pregigt primasofi dede facebooka: förutom tivaligt.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="accordion w-full bg-white hover:bg-red p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow group transition-all duration-500 ease-out">
+            <input type="checkbox" id="accordion-toggle-2" class="peer hidden" />
+
+            <label for="accordion-toggle-2"
+              class="flex items-start justify-between list-none cursor-pointer select-none">
+              <div class="accordion-headers">
+                <span
+                  class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out group-hover:text-white">
+                  Rodod bänera viliga
+                </span>
+              </div>
+
+              <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="transition-all duration-500 ease-in-out group-hover:fill-white"
+                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
+                    fill="#FF0000" />
+                </svg>
+              </span>
+            </label>
+
+            <div
+              class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
+              <div class="overflow-hidden">
+                <p
+                  class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out group-hover:text-white">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                  Pregigt primasofi dede facebooka: förutom tivaligt.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="accordion w-full bg-white hover:bg-red p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow group transition-all duration-500 ease-out">
+            <input type="checkbox" id="accordion-toggle-3" class="peer hidden" />
+
+            <label for="accordion-toggle-3"
+              class="flex items-start justify-between list-none cursor-pointer select-none">
+              <div class="accordion-headers">
+                <span
+                  class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out group-hover:text-white">
+                  Pregigt primasofi dede facebooka: förutom
+                </span>
+              </div>
+
+              <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="transition-all duration-500 ease-in-out group-hover:fill-white"
+                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
+                    fill="#FF0000" />
+                </svg>
+              </span>
+            </label>
+
+            <div
+              class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
+              <div class="overflow-hidden">
+                <p
+                  class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out group-hover:text-white">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                  Pregigt primasofi dede facebooka: förutom tivaligt.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="accordion w-full bg-white hover:bg-red p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow group transition-all duration-500 ease-out">
+            <input type="checkbox" id="accordion-toggle-4" class="peer hidden" />
+
+            <label for="accordion-toggle-4"
+              class="flex items-start justify-between list-none cursor-pointer select-none">
+              <div class="accordion-headers">
+                <span
+                  class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out group-hover:text-white">
+                  Ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                </span>
+              </div>
+
+              <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="transition-all duration-500 ease-in-out group-hover:fill-white"
+                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
+                    fill="#FF0000" />
+                </svg>
+              </span>
+            </label>
+
+            <div
+              class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
+              <div class="overflow-hidden">
+                <p
+                  class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out group-hover:text-white">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                  Pregigt primasofi dede facebooka: förutom tivaligt.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="accordion w-full bg-white hover:bg-red p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow group transition-all duration-500 ease-out">
+            <input type="checkbox" id="accordion-toggle-5" class="peer hidden" />
+
+            <label for="accordion-toggle-5"
+              class="flex items-start justify-between list-none cursor-pointer select-none">
+              <div class="accordion-headers">
+                <span
+                  class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out group-hover:text-white">
+                  Rodod bänera viliga. Pregigt primasofi dede facebookaF
+                </span>
+              </div>
+
+              <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path class="transition-all duration-500 ease-in-out group-hover:fill-white"
+                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
+                    fill="#FF0000" />
+                </svg>
+              </span>
+            </label>
+
+            <div
+              class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
+              <div class="overflow-hidden">
+                <p
+                  class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out group-hover:text-white">
+                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                  Pregigt primasofi dede facebooka: förutom tivaligt.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="min-h-fit px-4">
+    <div class="container w-full mx-auto max-w-285">
+      <div class="row py-15 md:py-20 lg:pt-35 lg:pb-30">
+        <h1
+          class="heading max-w-147.25 text-[clamp(28px,3.8889vw,56px)] text-black font-semibold leading-150 capitalize">
+          We provide services in these areas
+        </h1>
+        <p class="para max-w-148 text-[clamp(14px,1.25vw,18px)] mt-5 leading-160 text-black">
+          Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
+          primasofi dede facebooka: förutom tivaligt. Fejkade
+        </p>
+        <div id="areasContainer"
+          class="mt-[clamp(28px,3.8889vw,56px)] flex flex-wrap justify-start xl:justify-center items-center gap-6">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="min-h-fit">
+    <div class="container px-4 max-w-285 w-full mx-auto">
+      <div class="row w-full flex flex-col justify-between gap-[40px] lg:flex-row lg:gap-0">
+        <div class="left max-w-45.5 w-full">
+          <div class="logo">
+            <a href="">
+              <img width="175" height="86" class="object-cover" src="assets/images/png/logo.png" alt="logo" />
+            </a>
+          </div>
+          <div class="info flex flex-col gap-4 mt-5">
+            <div class="mail w-full flex items-center gap-2 max-w-45.25">
+              <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M14.939 0C16.28 0 17.57 0.53 18.519 1.481C19.469 2.43 20 3.71 20 5.05V12.95C20 15.74 17.73 18 14.939 18H5.06C2.269 18 0 15.74 0 12.95V5.05C0 2.26 2.259 0 5.06 0H14.939ZM16.07 5.2C15.86 5.189 15.66 5.26 15.509 5.4L11 9C10.42 9.481 9.589 9.481 9 9L4.5 5.4C4.189 5.17 3.759 5.2 3.5 5.47C3.23 5.74 3.2 6.17 3.429 6.47L3.56 6.6L8.11 10.15C8.67 10.59 9.349 10.83 10.06 10.83C10.769 10.83 11.46 10.59 12.019 10.15L16.53 6.54L16.61 6.46C16.849 6.17 16.849 5.75 16.599 5.46C16.46 5.311 16.269 5.22 16.07 5.2Z"
+                  fill="#FF0000" />
+              </svg>
+              <a class="font-normal leading-160 text-cusotm-black text-base hover:text-red transition-transform duration-300"
+                href="mailto:help@Dealzip.com">help@Dealzip.com</a>
+            </div>
+            <div class="tel w-full flex items-center gap-2 max-w-41.5">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11.5317 12.4724C15.5208 16.4604 16.4258 11.8467 18.9656 14.3848C21.4143 16.8328 22.8216 17.3232 19.7192 20.4247C19.3306 20.737 16.8616 24.4943 8.1846 15.8197C-0.493478 7.144 3.26158 4.67244 3.57397 4.28395C6.68387 1.17385 7.16586 2.58938 9.61449 5.03733C12.1544 7.5765 7.54266 8.48441 11.5317 12.4724Z"
+                  fill="#FF0000" />
+              </svg>
+              <a class="font-normal leading-160 text-cusotm-black text-base hover:text-red transition-transform duration-300"
+                href="tel:+1 234 456 678 89">+1 234 456 678
+                89</a>
+            </div>
+          </div>
+          <div class="socials flex gap-2 mt-[clamp(12px,1.6667vw,24px)]">
+            <div class="fb transition-all duration-200 ease-in-out hover:-translate-y-1">
+              <a target="_blank" href="https://facebook.com">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_87690_1908)">
+                    <path
+                      d="M16 0C7.16342 0 0 7.16342 0 16C0 24.8366 7.16342 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16342 24.8366 0 16 0ZM22.1041 8.14813L19.8911 8.14911C18.1557 8.14911 17.8202 8.97375 17.8202 10.1837V12.8517H21.9584L21.9564 17.0305H17.8205V27.7544H13.5042V17.0305H9.89594V12.8517H13.5042V9.7699C13.5042 6.19343 15.6893 4.24561 18.8795 4.24561L22.1044 4.25052L22.1041 8.14813Z"
+                      fill="#FF0000" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_87690_1908">
+                      <rect width="32" height="32" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+            <div class="ig transition-all duration-200 ease-in-out hover:-translate-y-1">
+              <a target="_blank" href="https://instagram.com">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_87690_1911)">
+                    <path
+                      d="M16 0C7.16375 0 0 7.16375 0 16C0 24.8363 7.16375 32 16 32C24.8363 32 32 24.8363 32 16C32 7.16375 24.8363 0 16 0Z"
+                      fill="#FF0000" />
+                    <path
+                      d="M17.0276 6C18.1526 6.003 18.7236 6.009 19.2166 6.023L19.4106 6.03C19.6346 6.038 19.8556 6.048 20.1226 6.06C21.1866 6.11 21.9126 6.278 22.5496 6.525C23.2096 6.779 23.7656 7.123 24.3216 7.678C24.8301 8.1779 25.2236 8.78259 25.4746 9.45C25.7216 10.087 25.8896 10.813 25.9396 11.878C25.9516 12.144 25.9616 12.365 25.9696 12.59L25.9756 12.784C25.9906 13.276 25.9966 13.847 25.9986 14.972L25.9996 15.718V17.028C26.0021 17.7574 25.9944 18.4868 25.9766 19.216L25.9706 19.41C25.9626 19.635 25.9526 19.856 25.9406 20.122C25.8906 21.187 25.7206 21.912 25.4746 22.55C25.2243 23.2178 24.8307 23.8226 24.3216 24.322C23.8216 24.8303 23.2169 25.2238 22.5496 25.475C21.9126 25.722 21.1866 25.89 20.1226 25.94C19.8853 25.9512 19.648 25.9612 19.4106 25.97L19.2166 25.976C18.7236 25.99 18.1526 25.997 17.0276 25.999L16.2816 26H14.9726C14.2429 26.0025 13.5131 25.9949 12.7836 25.977L12.5896 25.971C12.3522 25.962 12.1149 25.9517 11.8776 25.94C10.8136 25.89 10.0876 25.722 9.4496 25.475C8.78227 25.2244 8.17782 24.8308 7.6786 24.322C7.16965 23.8223 6.77582 23.2176 6.5246 22.55C6.2776 21.913 6.1096 21.187 6.0596 20.122C6.04846 19.8847 6.03846 19.6474 6.0296 19.41L6.0246 19.216C6.00617 18.4868 5.99784 17.7574 5.9996 17.028V14.972C5.99681 14.2426 6.00414 13.5132 6.0216 12.784L6.0286 12.59C6.0366 12.365 6.0466 12.144 6.0586 11.878C6.1086 10.813 6.2766 10.088 6.5236 9.45C6.77471 8.7819 7.16932 8.17702 7.6796 7.678C8.17869 7.16947 8.78274 6.77599 9.4496 6.525C10.0876 6.278 10.8126 6.11 11.8776 6.06C12.1436 6.048 12.3656 6.038 12.5896 6.03L12.7836 6.024C13.5128 6.00623 14.2422 5.99857 14.9716 6.001L17.0276 6ZM15.9996 11C14.6735 11 13.4017 11.5268 12.4641 12.4645C11.5264 13.4021 10.9996 14.6739 10.9996 16C10.9996 17.3261 11.5264 18.5979 12.4641 19.5355C13.4017 20.4732 14.6735 21 15.9996 21C17.3257 21 18.5975 20.4732 19.5351 19.5355C20.4728 18.5979 20.9996 17.3261 20.9996 16C20.9996 14.6739 20.4728 13.4021 19.5351 12.4645C18.5975 11.5268 17.3257 11 15.9996 11ZM15.9996 13C16.3936 12.9999 16.7837 13.0775 17.1477 13.2282C17.5117 13.3789 17.8424 13.5998 18.1211 13.8783C18.3997 14.1569 18.6207 14.4875 18.7715 14.8515C18.9224 15.2154 19 15.6055 19.0001 15.9995C19.0002 16.3935 18.9226 16.7836 18.7719 17.1476C18.6212 17.5116 18.4003 17.8423 18.1218 18.121C17.8432 18.3996 17.5126 18.6206 17.1486 18.7714C16.7847 18.9223 16.3946 18.9999 16.0006 19C15.205 19 14.4419 18.6839 13.8793 18.1213C13.3167 17.5587 13.0006 16.7956 13.0006 16C13.0006 15.2044 13.3167 14.4413 13.8793 13.8787C14.4419 13.3161 15.205 13 16.0006 13M21.2506 9.5C20.9191 9.5 20.6011 9.6317 20.3667 9.86612C20.1323 10.1005 20.0006 10.4185 20.0006 10.75C20.0006 11.0815 20.1323 11.3995 20.3667 11.6339C20.6011 11.8683 20.9191 12 21.2506 12C21.5821 12 21.9001 11.8683 22.1345 11.6339C22.3689 11.3995 22.5006 11.0815 22.5006 10.75C22.5006 10.4185 22.3689 10.1005 22.1345 9.86612C21.9001 9.6317 21.5821 9.5 21.2506 9.5Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_87690_1911">
+                      <rect width="32" height="32" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+            <div class="twitter transition-all duration-200 ease-in-out hover:-translate-y-1">
+              <a target="_blank" href="https://x.com">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_87690_1904)">
+                    <path
+                      d="M16 0C7.16375 0 0 7.16375 0 16C0 24.8363 7.16375 32 16 32C24.8363 32 32 24.8363 32 16C32 7.16375 24.8363 0 16 0Z"
+                      fill="#FF0000" />
+                    <path
+                      d="M17.7506 14.5517L24.6 6.58984H22.9769L17.0296 13.503L12.2795 6.58984H6.80078L13.9839 17.0438L6.80078 25.3931H8.42397L14.7045 18.0925L19.721 25.3931H25.1997L17.7502 14.5517H17.7506ZM9.00881 7.81176H11.5019L22.9777 24.2267H20.4846L9.00881 7.81176Z"
+                      fill="white" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_87690_1904">
+                      <rect width="32" height="32" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+            <div class="linkedin transition-all duration-200 ease-in-out hover:-translate-y-1">
+              <a target="_blank" href="https://linkedin.com">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_87690_1902)">
+                    <path
+                      d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM11.3506 24.1875H7.45386V12.4641H11.3506V24.1875ZM9.40234 10.8633H9.37695C8.06934 10.8633 7.22363 9.96313 7.22363 8.83813C7.22363 7.68774 8.09521 6.8125 9.42822 6.8125C10.7612 6.8125 11.5815 7.68774 11.6069 8.83813C11.6069 9.96313 10.7612 10.8633 9.40234 10.8633ZM25.4014 24.1875H21.5051V17.9158C21.5051 16.3396 20.9409 15.2646 19.531 15.2646C18.4546 15.2646 17.8135 15.9897 17.5317 16.6897C17.4287 16.9402 17.4036 17.2903 17.4036 17.6406V24.1875H13.5071C13.5071 24.1875 13.5581 13.564 13.5071 12.4641H17.4036V14.124C17.9214 13.3252 18.8479 12.189 20.9153 12.189C23.479 12.189 25.4014 13.8645 25.4014 17.4653V24.1875Z"
+                      fill="#FF0000" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_87690_1902">
+                      <rect width="32" height="32" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="right max-w-194 w-full">
+          <div class="footer-items flex flex-wrap lg:flex-nowrap gap-x-[clamp(38px,5.2778vw,76px)] gap-y-[40px]">
+            <div class="row-1 max-w-20">
+              <p class="heading-item text-custom-black font-semibold text-xl leading-160" m-0>Links</p>
+              <a class="link-item mt-5 relative inline-block text-custom-black text-base font-normal leading-160 after:absolute after:left-0 after:bottom-[-0.5px] after:h-0.5 after:w-0 after:bg-custom-black after:transition-all after:duration-300 hover:after:w-full"
+                href="">
+                Home
+              </a>
+              <a class="link-item mt-3 relative inline-block text-custom-black text-base font-normal leading-160 after:absolute after:left-0 after:bottom-[-0.5px] after:h-0.5 after:w-0 after:bg-custom-black after:transition-all after:duration-300 hover:after:w-full"
+                href="">
+                ABout Us
+              </a>
+              <a class="link-item mt-3 relative inline-block text-custom-black text-base font-normal leading-160 after:absolute after:left-0 after:bottom-[-0.5px] after:h-0.5 after:w-0 after:bg-custom-black after:transition-all after:duration-300 hover:after:w-full"
+                href="">
+                Services
+              </a>
+              <a class="link-item mt-3 relative inline-block text-custom-black text-base font-normal leading-160 after:absolute after:left-0 after:bottom-[-0.5px] after:h-0.5 after:w-0 after:bg-custom-black after:transition-all after:duration-300 hover:after:w-full"
+                href="">
+                Showcase
+              </a>
+            </div>
+            <div class="row-2 max-w-26.25">
+              <p class="heading-item text-custom-black font-semibold text-xl leading-160" href="">Legal</p>
+              <a class="link-item mt-5 text-nowrap relative inline-block text-custom-black text-base font-normal leading-160 after:absolute after:left-0 after:bottom-[-0.5px] after:h-0.5 after:w-0 after:bg-custom-black after:transition-all after:duration-300 hover:after:w-full"
+                href="">
+                Terms Of Use
+              </a>
+              <a class="link-item mt-3 text-nowrap relative inline-block text-custom-black text-base font-normal leading-160 after:absolute after:left-0 after:bottom-[-0.5px] after:h-0.5 after:w-0 after:bg-custom-black after:transition-all after:duration-300 hover:after:w-full"
+                href="">
+                Privacy Policy
+              </a>
+              <a class="link-item mt-3 text-nowrap relative inline-block text-custom-black text-base font-normal leading-160 after:absolute after:left-0 after:bottom-[-0.5px] after:h-0.5 after:w-0 after:bg-custom-black after:transition-all after:duration-300 hover:after:w-full"
+                href="">Cookie Policy
+              </a>
+            </div>
+            <div class="row-3 max-w-19.75">
+              <p class="heading-item text-custom-black font-semibold text-xl leading-160" href="">Product</p>
+              <a class="link-item text-nowrap mt-5 relative inline-block text-custom-black text-base font-normal leading-160 after:absolute after:left-0 after:bottom-[-0.5px] after:h-0.5 after:w-0 after:bg-custom-black after:transition-all after:duration-300 hover:after:w-full"
+                href="">
+                Take Tour
+              </a>
+              <a class="link-item mt-3 text-nowrap relative inline-block text-custom-black text-base font-normal leading-160 after:absolute after:left-0 after:bottom-[-0.5px] after:h-0.5 after:w-0 after:bg-custom-black after:transition-all after:duration-300 hover:after:w-full"
+                href="">
+                Live Chat
+              </a>
+              <a class="link-item mt-3 text-nowrap relative inline-block text-custom-black text-base font-normal leading-160 after:absolute after:left-0 after:bottom-[-0.5px] after:h-0.5 after:w-0 after:bg-custom-black after:transition-all after:duration-300 hover:after:w-full"
+                href="">Reveiws
+              </a>
+            </div>
+            <div class="row-4 max-w-85 w-full min-w-0 flex flex-col">
+              <p class="heading-item text-custom-black font-semibold text-xl leading-160" href="">
+                Newsletter
+              </p>
+
+              <p
+                class="link-item max-w-29.75 mt-5 text-nowrap relative inline-block text-custom-black text-base font-normal leading-160 ">
+                Stay up to date
+              </p>
+
+              <div
+                class="part mt-3 max-w-85 w-full min-w-0 overflow-hidden rounded-full flex items-center gap-1 border border-solid border-border-gray py-2.25 pr-10 pl-6.25">
+                <input required class="min-w-0 flex-1 w-0 text-gray outline-none leading-26 font-normal text-base"
+                  type="email" name="email" placeholder="Your email" />
+
+                <button
+                  class="relative group isolate overflow-hidden bg-red shrink-0 h-13.75 py-3.75 px-5 sm:px-[40px] cursor-pointer rounded-full font-semibold leading-26 text-white border border-transparent"
+                  type="submit">
+                  <span
+                    class="absolute left-1/2 top-1/2 h-0 w-0 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white opacity-0 transition-all duration-700 ease-out group-hover:h-45 group-hover:w-47.5 group-hover:opacity-100">
+                  </span>
+                  <span class="relative z-10 group-hover:text-red">Subscribe</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom w-full mt-7.5 md:mt-11.25">
+      <div
+        class="relative h-14.5 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-px before:bg-[linear-gradient(90deg,rgba(22,22,22,0)_0%,#696969_51.56%,rgba(22,22,22,0)_100%)]">
+        <h1
+          class="copyright py-4 px-4 text-center text-custom-black text-[clamp(14px,1.1111vw,16px)] font-normal leading-160">
+          Copyright <span id="currentYEAR"></span> ceramicsolutions.com all
+          rights reserved
+        </h1>
+      </div>
+    </div>
+  </footer>
+  <script src="src/script.js"></script>
+</body>
+
+</html>
