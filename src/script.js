@@ -50,37 +50,37 @@ const cards = [
   {
     img: "assets/images/webp/kitchen.webp",
     heading: "Kitchen Backsplash",
-    paragraph: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.",
+    paragraph: "lorem skldkl kajdk j ajdfk jdkjfalkd jdkajldkj jdkjald jdkj",
   },
   {
     img: "assets/images/webp/shower.webp",
     heading: "Custom Showers",
-    paragraph: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.",
+    paragraph: "kdfj ipsum koda kdajfl: sutaveligen. Rodod bänera viliga.",
   },
   {
     img: "assets/images/webp/floor.webp",
     heading: "Custom Flooring",
-    paragraph: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.",
+    paragraph: "Lörem adlj koda adkfj: akljd. Rodod bänera viliga.",
   },
   {
     img: "assets/images/webp/large.webp",
     heading: "Large Format Tiling",
-    paragraph: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.",
+    paragraph: "Lörem flakd koda astrobel: alkjdlf. Rodod bänera viliga.",
   },
   {
     img: "assets/images/webp/wall.webp",
     heading: "Wall Tiling",
-    paragraph: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.",
+    paragraph: "nomore ipsum kdnfo astrobel: sutaveligen. Rodod bänera viliga.",
   },
   {
     img: "assets/images/webp/ada-shower.webp",
     heading: "ADA Compliant Showers",
-    paragraph: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.",
+    paragraph: "hellow ipsum koda astrobel: sutaveligen. Rodod bänera viliga.",
   },
   {
     img: "assets/images/webp/fireplace.webp",
     heading: "Fireplace Tiling",
-    paragraph: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.",
+    paragraph: "you are nothing koda astrobel: jlkkjl. Rodod bänera viliga.",
   },
 ];
 
@@ -90,13 +90,13 @@ cardsContainer.innerHTML = cards
   .map(
     (item) => `
  <div
-  class="card cursor-pointer group max-w-91 w-full p-6 bg-white shadow-card-shadow rounded-24 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl"
+  class="card cursor-pointer group lg:max-w-91 w-full p-6 bg-white shadow-card-shadow rounded-24 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl"
   id="card"
 >
       <img
         width="316"
         height="246"
-        class="rounded-12 object-cover h-61.5"
+        class="rounded-12 object-cover w-full h-61.5"
         src="${item.img}"
         alt=""
       />
@@ -132,68 +132,7 @@ cardsContainer.innerHTML = cards
   )
   .join("");
 
-// INF SCROLLLLLL - 4 CARDS
 
-const infiniteTrack = document.querySelector(".scroll-cards-inf");
-
-const originalScrollItems = [...infiniteTrack.children];
-
-for (let i = 0; i < 2; i++) {
-  originalScrollItems.forEach((scrollItem) => {
-    const duplicatedItem = scrollItem.cloneNode(true);
-    infiniteTrack.appendChild(duplicatedItem);
-  });
-}
-
-let infinitePosition = 0;
-
-const infiniteSpeed = 1;
-
-let isPaused = false;
-
-const originalTrackWidth =
-  infiniteTrack.children[originalScrollItems.length].offsetLeft -
-  infiniteTrack.children[0].offsetLeft;
-
-function runInfiniteScroll() {
-  if (!isPaused) {
-    infinitePosition += infiniteSpeed;
-
-    if (infinitePosition >= originalTrackWidth) {
-      infinitePosition -= originalTrackWidth;
-    }
-
-    infiniteTrack.style.transform = `translateX(-${infinitePosition}px)`;
-  }
-
-  requestAnimationFrame(runInfiniteScroll);
-}
-
-runInfiniteScroll();
-
-infiniteTrack.addEventListener("mouseover", (event) => {
-  const card = event.target.closest(
-    ".card-scroll-1, .card-scroll-2, .card-scroll-3, .card-scroll-4",
-  );
-
-  if (card) {
-    isPaused = true;
-  }
-});
-
-infiniteTrack.addEventListener("mouseout", (event) => {
-  const card = event.target.closest(
-    ".card-scroll-1, .card-scroll-2, .card-scroll-3, .card-scroll-4",
-  );
-
-  const nextCard = event.relatedTarget?.closest(
-    ".card-scroll-1, .card-scroll-2, .card-scroll-3, .card-scroll-4",
-  );
-
-  if (card && !nextCard) {
-    isPaused = false;
-  }
-});
 // LOCATION CARDS
 const serviceAreas = [
   "Knoxville",
@@ -224,7 +163,7 @@ areasContainer.innerHTML = serviceAreas
  .map(
   (area) => `
         <div
-          class="service-card group hover:bg-red transition-all duration-500 ease-out cursor-pointer md:max-w-91 w-full py-6 pl-6 shadow-scroll-card-shadow rounded-24 flex gap-3 items-center hover:-translate-y-2 hover:shadow-xl"
+          class="service-card group transition-all duration-500 ease-out cursor-pointer md:max-w-91 w-full py-6 pl-6 shadow-scroll-card-shadow rounded-24 flex gap-3 items-center hover:-translate-y-2 hover:shadow-xl"
         >
           <svg
             width="48"
@@ -239,18 +178,18 @@ areasContainer.innerHTML = serviceAreas
               cy="24"
               r="24"
               fill="#FF0000"
-              class="transition-all duration-500 ease-in-out group-hover:fill-white"
+              class="transition-all duration-500 ease-in-out"
             />
 
             <path
-              class="transition-all duration-500 ease-in-out group-hover:fill-red"
+              class="transition-all duration-500 ease-in-out"
               d="M34.7754 19.5625C33.4629 13.7875 28.4254 11.1875 24.0004 11.1875C24.0004 11.1875 24.0004 11.1875 23.9879 11.1875C19.5754 11.1875 14.5254 13.775 13.2129 19.55C11.7504 26 15.7004 31.4625 19.2754 34.9C20.6004 36.175 22.3004 36.8125 24.0004 36.8125C25.7004 36.8125 27.4004 36.175 28.7129 34.9C32.2879 31.4625 36.2379 26.0125 34.7754 19.5625ZM24.0004 25.825C21.8254 25.825 20.0629 24.0625 20.0629 21.8875C20.0629 19.7125 21.8254 17.95 24.0004 17.95C26.1754 17.95 27.9379 19.7125 27.9379 21.8875C27.9379 24.0625 26.1754 25.825 24.0004 25.825Z"
               fill="white"
             />
           </svg>
 
           <p
-            class="location text-[clamp(18px,1.6667vw,24px)] text-black font-semibold leading-160 transition-colors duration-500 ease-in-out group-hover:text-white"
+            class="location text-[clamp(18px,1.6667vw,24px)] text-black font-semibold leading-160 transition-colors duration-500 ease-in-out"
           >
             ${area}
           </p>
@@ -259,8 +198,48 @@ areasContainer.innerHTML = serviceAreas
 )
 .join("");
 
-// YEAR FUNCTION
+// updating each year
 
 const YEAR = document.getElementById("currentYEAR");
 const currentYear = new Date().getFullYear();
 YEAR.innerText = currentYear;
+
+// swiper code 
+const swiper = new Swiper(".swiper", {
+  loop: true,
+
+  slidesPerView: 2,
+  spaceBetween: 24,
+
+  freeMode: true,
+  freeModeMomentum: true,
+
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false,
+  },
+
+  speed: 4000,
+  
+  breakpoints: {
+    // Mobile
+    0: {
+      slidesPerView: 1,
+    },
+
+    // Tablet
+    768: {
+      slidesPerView: 2,
+    },
+
+    // Desktop
+    1024: {
+      slidesPerView: 3,
+    },
+
+    // Large desktop
+    1280: {
+      slidesPerView: 3.5,
+    },
+  },
+});
