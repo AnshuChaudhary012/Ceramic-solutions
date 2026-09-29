@@ -413,7 +413,7 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="max-w-360 w-full mx-auto">
       <div class="swiper w-full  ">
         <div class="swiper-wrapper w-screen pb-35 pt-14">
           <div class="swiper-slide ">
@@ -807,154 +807,222 @@
         </p>
         <div class="accordions w-full flex flex-col mt-[clamp(28px,3.8889vw,56px)] gap-[clamp(12px,1.6667vw,24px)]">
           <div
-            class="accordion w-full bg-white p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow group transition-all duration-500 ease-out">
+            class="accordion group w-full bg-white p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow transition-all duration-500 ease-out">
+
             <input type="checkbox" id="accordion-toggle-1" class="peer hidden" />
-            <label for="accordion-toggle-1"
-              class="flex items-start justify-between list-none cursor-pointer select-none">
-              <div class="accordion-headers">
-                <span
-                  class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out ">
-                  Lörem ipsum koda astrobel: sutaveligen.
+
+            <label for="accordion-toggle-1" class="block cursor-pointer select-none">
+
+              <!-- Header -->
+              <div class="flex items-start justify-between">
+
+                <div class="accordion-headers">
+                  <span
+                    class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out">
+                    Lörem ipsum koda astrobel: sutaveligen.
+                  </span>
+                </div>
+
+                <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
+
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <path class="transition-all duration-500 ease-in-out"
+                      d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
+                      fill="#FF0000" />
+                  </svg>
+
                 </span>
               </div>
-              <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path class="transition-all duration-500 ease-in-out"
-                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
-                    fill="#FF0000" />
-                </svg>
-              </span>
-            </label>
-            <div
-              class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
-              <div class="overflow-hidden">
-                <p
-                  class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out ">
-                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
-                  Pregigt primasofi dede facebooka: förutom tivaligt.
-                </p>
+              <!-- Paragraph -->
+              <div
+                class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-has-checked:grid-rows-[1fr]">
+                <div class="overflow-hidden">
+                  <p
+                    class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out">
+                    Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                    Pregigt primasofi dede facebooka: förutom tivaligt.
+                  </p>
+                </div>
+
               </div>
-            </div>
+
+            </label>
+
           </div>
           <div
-            class="accordion w-full bg-white p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow group transition-all duration-500 ease-out">
+            class="accordion group w-full bg-white p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow transition-all duration-500 ease-out">
+
             <input type="checkbox" id="accordion-toggle-2" class="peer hidden" />
-            <label for="accordion-toggle-2"
-              class="flex items-start justify-between list-none cursor-pointer select-none">
-              <div class="accordion-headers">
-                <span
-                  class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out ">
-                  Rodod bänera viliga
+
+            <label for="accordion-toggle-2" class="block cursor-pointer select-none">
+
+              <!-- Header -->
+              <div class="flex items-start justify-between">
+
+                <div class="accordion-headers">
+                  <span
+                    class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out">
+                    Rodod bänera viliga
+                  </span>
+                </div>
+
+                <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
+
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <path class="transition-all duration-500 ease-in-out"
+                      d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
+                      fill="#FF0000" />
+                  </svg>
+
                 </span>
               </div>
-              <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path class="transition-all duration-500 ease-in-out "
-                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
-                    fill="#FF0000" />
-                </svg>
-              </span>
-            </label>
-            <div
-              class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
-              <div class="overflow-hidden">
-                <p
-                  class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out ">
-                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
-                  Pregigt primasofi dede facebooka: förutom tivaligt.
-                </p>
+              <!-- Paragraph -->
+              <div
+                class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-has-checked:grid-rows-[1fr]">
+                <div class="overflow-hidden">
+                  <p
+                    class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out">
+                    Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                    Pregigt primasofi dede facebooka: förutom tivaligt.
+                  </p>
+                </div>
+
               </div>
-            </div>
+
+            </label>
+
           </div>
           <div
-            class="accordion w-full bg-white p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow group transition-all duration-500 ease-out">
+            class="accordion group w-full bg-white p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow transition-all duration-500 ease-out">
+
             <input type="checkbox" id="accordion-toggle-3" class="peer hidden" />
-            <label for="accordion-toggle-3"
-              class="flex items-start justify-between list-none cursor-pointer select-none">
-              <div class="accordion-headers">
-                <span
-                  class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out ">
-                  Pregigt primasofi dede facebooka: förutom
+
+            <label for="accordion-toggle-3" class="block cursor-pointer select-none">
+
+              <!-- Header -->
+              <div class="flex items-start justify-between">
+
+                <div class="accordion-headers">
+                  <span
+                    class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out">
+                    Pregigt primasofi dede facebooka: förutom
+                  </span>
+                </div>
+
+                <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
+
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <path class="transition-all duration-500 ease-in-out"
+                      d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
+                      fill="#FF0000" />
+                  </svg>
+
                 </span>
               </div>
-              <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path class="transition-all duration-500 ease-in-out "
-                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
-                    fill="#FF0000" />
-                </svg>
-              </span>
-            </label>
-            <div
-              class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
-              <div class="overflow-hidden">
-                <p
-                  class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out ">
-                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
-                  Pregigt primasofi dede facebooka: förutom tivaligt.
-                </p>
+              <!-- Paragraph -->
+              <div
+                class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-has-checked:grid-rows-[1fr]">
+                <div class="overflow-hidden">
+                  <p
+                    class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out">
+                    Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                    Pregigt primasofi dede facebooka: förutom tivaligt.
+                  </p>
+                </div>
+
               </div>
-            </div>
+
+            </label>
+
           </div>
           <div
-            class="accordion w-full bg-white p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow group transition-all duration-500 ease-out">
+            class="accordion group w-full bg-white p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow transition-all duration-500 ease-out">
+
             <input type="checkbox" id="accordion-toggle-4" class="peer hidden" />
-            <label for="accordion-toggle-4"
-              class="flex items-start justify-between list-none cursor-pointer select-none">
-              <div class="accordion-headers">
-                <span
-                  class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out ">
-                  Ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+
+            <label for="accordion-toggle-4" class="block cursor-pointer select-none">
+
+              <!-- Header -->
+              <div class="flex items-start justify-between">
+
+                <div class="accordion-headers">
+                  <span
+                    class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out">
+                    Ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                  </span>
+                </div>
+
+                <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
+
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <path class="transition-all duration-500 ease-in-out"
+                      d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
+                      fill="#FF0000" />
+                  </svg>
+
                 </span>
               </div>
-              <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path class="transition-all duration-500 ease-in-out"
-                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
-                    fill="#FF0000" />
-                </svg>
-              </span>
-            </label>
-            <div
-              class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
-              <div class="overflow-hidden">
-                <p
-                  class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out ">
-                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
-                  Pregigt primasofi dede facebooka: förutom tivaligt.
-                </p>
+              <!-- Paragraph -->
+              <div
+                class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-has-checked:grid-rows-[1fr]">
+                <div class="overflow-hidden">
+                  <p
+                    class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out">
+                    Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                    Pregigt primasofi dede facebooka: förutom tivaligt.
+                  </p>
+                </div>
+
               </div>
-            </div>
+
+            </label>
+
           </div>
           <div
-            class="accordion w-full bg-white p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow group transition-all duration-500 ease-out">
+            class="accordion group w-full bg-white p-4 sm:px-5 sm:py-5.25 rounded-16 shadow-accordion-shadow transition-all duration-500 ease-out">
             <input type="checkbox" id="accordion-toggle-5" class="peer hidden" />
-            <label for="accordion-toggle-5"
-              class="flex items-start justify-between list-none cursor-pointer select-none">
-              <div class="accordion-headers">
-                <span
-                  class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out ">
-                  Rodod bänera viliga. Pregigt primasofi dede facebookaF
+            <label for="accordion-toggle-5" class="block cursor-pointer select-none">
+
+              <!-- Header -->
+              <div class="flex items-start justify-between">
+
+                <div class="accordion-headers">
+                  <span
+                    class="heading text-black text-lg leading-30 font-normal transition-all duration-500 ease-in-out">
+                    Rodod bänera viliga. Pregigt primasofi dede facebooka
+                  </span>
+                </div>
+
+                <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
+
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                    <path class="transition-all duration-500 ease-in-out"
+                      d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
+                      fill="#FF0000" />
+                  </svg>
+
                 </span>
               </div>
-              <span class="transition-transform duration-500 ease-in-out group-has-checked:rotate-180">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path class="transition-all duration-500 ease-in-out"
-                    d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.06 11.17L12.53 14.7C12.38 14.85 12.19 14.92 12 14.92C11.81 14.92 11.62 14.85 11.47 14.7L7.94 11.17C7.65 10.88 7.65 10.4 7.94 10.11C8.23 9.82 8.71 9.82 9 10.11L12 13.11L15 10.11C15.29 9.82 15.77 9.82 16.06 10.11C16.35 10.4 16.35 10.87 16.06 11.17Z"
-                    fill="#FF0000" />
-                </svg>
-              </span>
-            </label>
-            <div
-              class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out peer-checked:grid-rows-[1fr]">
-              <div class="overflow-hidden">
-                <p
-                  class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out group-hover:text-white">
-                  Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
-                  Pregigt primasofi dede facebooka: förutom tivaligt.
-                </p>
+              <!-- Paragraph -->
+              <div
+                class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out group-has-checked:grid-rows-[1fr]">
+                <div class="overflow-hidden">
+                  <p
+                    class="para pt-3 text-base font-normal leading-100 text-black transition-all duration-500 ease-in-out">
+                    Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                    Pregigt primasofi dede facebooka: förutom tivaligt.
+                  </p>
+                </div>
+
               </div>
-            </div>
+
+            </label>
+
           </div>
         </div>
       </div>

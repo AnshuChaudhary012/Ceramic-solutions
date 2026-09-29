@@ -473,6 +473,9 @@
   .max-w-285 {
     max-width: calc(var(--spacing) * 285);
   }
+  .max-w-360 {
+    max-width: calc(var(--spacing) * 360);
+  }
   .min-w-0 {
     min-width: 0px;
   }
@@ -502,16 +505,8 @@
     --tw-translate-y: calc(var(--spacing) * -2.25);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
-  .-translate-y-\[9px\] {
-    --tw-translate-y: calc(9px * -1);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
   .translate-y-2\.25 {
     --tw-translate-y: calc(var(--spacing) * 2.25);
-    translate: var(--tw-translate-x) var(--tw-translate-y);
-  }
-  .translate-y-\[9px\] {
-    --tw-translate-y: 9px;
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-rotate-45 {
@@ -522,9 +517,6 @@
   }
   .cursor-pointer {
     cursor: pointer;
-  }
-  .list-none {
-    list-style-type: none;
   }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -987,7 +979,7 @@
   .group-has-checked\:rotate-180:is(:where(.group):has(:checked) *) {
     rotate: 180deg;
   }
-  .peer-checked\:grid-rows-\[1fr\]:is(:where(.peer):checked ~ *) {
+  .group-has-checked\:grid-rows-\[1fr\]:is(:where(.group):has(:checked) *) {
     grid-template-rows: 1fr;
   }
   .before\:absolute::before {

@@ -1,5 +1,4 @@
 // NAVBAR
-
 const menuBtn = document.getElementById("menuBtn");
 const mobileSidebar = document.getElementById("mobileSidebar");
 
@@ -11,9 +10,9 @@ function closeSidebar() {
   mobileSidebar.classList.add("translate-x-full");
   mobileSidebar.classList.remove("translate-x-0");
 
-  line1.classList.remove("translate-y-[9px]", "rotate-45");
+  line1.classList.remove("translate-y-2.25", "rotate-45");
   line2.classList.remove("opacity-0");
-  line3.classList.remove("-translate-y-[9px]", "-rotate-45");
+  line3.classList.remove("-translate-y-2.25", "-rotate-45");
 }
 
 function openSidebar() {
